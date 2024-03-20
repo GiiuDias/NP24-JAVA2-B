@@ -1,0 +1,7 @@
+package br.com.senaisp.bauru.giulia.secao05;
+
+public class ExemplosjOpitionPane {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Digite seu nome:");
+		JOptionPane.showMessageDialog(null, "Olá" + nome);
