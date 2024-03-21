@@ -1,3 +1,5 @@
+package br.com.senaisp.bauru.giulia.secao05;
+
 import java.util.Scanner;
 
 public class Input04 {
@@ -19,7 +21,7 @@ public class Input04 {
         yPosition = sc.nextInt();
         //Print these positions
         
-        System.out.println("X: "+xPosition ", Y: "+yPosition);
+        System.out.printf("X: "+xPosition ,"Y:" +yPosition);
         sc.close();
     }    
 }

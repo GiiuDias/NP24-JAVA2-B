@@ -1,0 +1,50 @@
+package br.com.senaisp.bauru.giulia.secao05;
+
+import java.util.Scanner;
+import java.util.jar.Attributes.Name;
+
+import javax.swing.JOptionPane;
+
+public class JavaLibsPractice {
+		public static void main(String[] args) {
+	        String name = JOptionPane.showInputDialog("Enter your name");
+	        
+	        //Para sim ou não
+	        boolean resp = JOptionPane.
+	        		showConfirmDialog(null,
+	        		"Você gosta de se aventurar?",
+	        		"Participação",
+	        		JOptionPane .YES_NO_OPTION,
+	        		JOptionPane.QUESTION_MESSAGE)
+	        		== JOptionPane.YES_OPTION;
+	        
+	        String[] acceptableValues = {"Bar do tatu", "Buteco do japonês", "Praia"};
+	        String input2 = (String)JOptionPane.showInputDialog(null,
+	                "Qual seu lugar favorito?",
+	                "Dialog Title",
+	                JOptionPane.QUESTION_MESSAGE,
+	                null,
+	                acceptableValues,
+	                acceptableValues[1]);
+	        
+	        boolean resp1 = JOptionPane.
+	        		showConfirmDialog(null,
+	        		"Você iria comigo?",
+	        		"Participação",
+	        		JOptionPane .YES_NO_OPTION,
+	        		JOptionPane.QUESTION_MESSAGE)
+	        		== JOptionPane.YES_OPTION;
+	        
+	        boolean resp11 = JOptionPane.
+	        		showConfirmDialog(null,
+	        		"Vou te dar a opção de escolhar uma data, ok?",
+	        		"Participação",
+	        		JOptionPane .YES_NO_OPTION,
+	        		JOptionPane.QUESTION_MESSAGE)
+	        		== JOptionPane.YES_OPTION;
+		}
+
+		private static Object name(Object object, String name) {
+			// TODO Auto-generated method stub
+			return null;
+		}}
