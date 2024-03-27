@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.giulia.secao06.poligonos;
+
+public class poligonos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

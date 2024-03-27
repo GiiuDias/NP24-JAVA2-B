@@ -10,6 +10,7 @@ public class exemploSwitch {
 			public static void main(String[] args) {
 				Scanner sc = new Scanner(System.in);
 				System.out.println("Digite um valor de 1 a 10:");
+				
 				int vlr = sc.nextInt();
 				switch(vlr) {
 				case 1: System.out.println("Você ganhou um boné");

@@ -1,0 +1,11 @@
+package br.com.senaisp.bauru.giulia.secao06.locofor;
+
+public class poligonos {
+
+	public static void montarQuadrado (){
+		for (int lin=0;lin<10;lin++) {
+			for (int col=0;col<10;col++) {
+
+	}
+
+		}}}

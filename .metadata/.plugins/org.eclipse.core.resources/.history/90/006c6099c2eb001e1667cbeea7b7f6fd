@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.giulia.secao06.locofor;
+
+public class testepoligonos {
+
+	 public static void main(String[] args) {
+	        Poligonos p1 = new Poligonos();
+	        p1.montarQuadrado();
+	    }
+
+	}
