@@ -1,0 +1,89 @@
+package br.com.senaisp.bauru.giulia.secao07;
+
+public class Exemplo01 {
+
+    public static void main(String[] args) {
+        ContaBancaria c1 = new ContaBancaria();
+        System.out.println("Nr. Conta: " + c1.getNumeroConta());
+        ContaBancaria c4 = new ContaBancaria();
+        System.out.println("Nr. Conta: " + c4.getNumeroConta());        
+
+        //System.out.println(ContaBancaria.ultNumero);
+
+        //c1.setAgencia(1900);
+        //c1.setBanco(341);
+        c1.setNumeroConta(12345);
+        //c1.setNumeroConta(12345);
+        //c1.setSaldo(-10);
+        ContaBancaria c2 = new ContaBancaria();
+        c2.setSaldo(50);
+        System.out.println(c1.getSaldo());
+        c2.setSaldo(50);
+        System.out.println(c1.getSaldo());
+        adicionarValor(c1,100.00);      
+        System.out.println(c1.getSaldo());
+        //Conta passando valores no constructor
+        ContaBancaria c3 = new ContaBancaria(123, 2, 1478, 65);
+        System.out.println(c3.getSaldo());
+    }
+
+    private static void adicionarValor(ContaBancaria ca1, double d) {
+        //ca1.saldo = ca1.saldo + d;
+        ca1.setSaldo(ca1.getSaldo() + d);
+    }
+}
+
+class ContaBancaria {
+    private static int ultNumero = 0;
+    private int numeroConta;
+    private int agencia;
+    private int banco;
+    private double saldo;
+
+    // Construtor padrão
+    public ContaBancaria() {
+        ultNumero++;
+        this.numeroConta = ultNumero;
+    }
+
+    // Construtor com parâmetros
+    public ContaBancaria(int agencia, int banco, int numeroConta, double saldo) {
+        this.agencia = agencia;
+        this.banco = banco;
+        this.numeroConta = numeroConta;
+        this.saldo = saldo;
+    }
+
+    // Getters e setters
+    public int getNumeroConta() {
+        return numeroConta;
+    }
+
+    public void setNumeroConta(int numeroConta) {
+        this.numeroConta = numeroConta;
+    }
+
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
+
+    public int getBanco() {
+        return banco;
+    }
+
+    public void setBanco(int banco) {
+        this.banco = banco;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+}

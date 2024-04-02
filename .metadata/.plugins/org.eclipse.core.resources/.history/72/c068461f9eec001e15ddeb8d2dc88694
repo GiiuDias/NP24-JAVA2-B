@@ -1,0 +1,12 @@
+package br.com.senaisp.bauru.giulia.secao07.exercicio;
+
+public class Cartao {
+	private int numero;contador=0;
+	private int creditos;
+	private int tickets;
+	
+	//Constructor
+    public cartao() 
+	numero= ++contador;
+	creditosc= 0;
+	tickets = 0;} 

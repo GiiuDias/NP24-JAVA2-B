@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.giulia.secao08.exemplo;
+
+public class TesteBaralho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

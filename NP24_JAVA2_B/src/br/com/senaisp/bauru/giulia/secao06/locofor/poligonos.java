@@ -1,6 +1,6 @@
 package br.com.senaisp.bauru.giulia.secao06.locofor;
 
-public class Poligonos {
+public class poligonos {
 
     public static void main(String[] args) {
         for(int lin=0; lin<10; lin++) {
